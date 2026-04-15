@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 250">
+  <!-- Medium Sitting Pitbull -->
+  <rect x="0" y="0" width="300" height="250" fill="#f5f5f5"/>
+  
+  <!-- Body with volume -->
+  <rect x="75" y="125" width="60" height="45" rx="8" fill="none" stroke="#333" stroke-width="2.5"/>
+  
+  <!-- Head with detail -->
+  <circle cx="160" cy="90" r="35" fill="none" stroke="#333" stroke-width="2.5"/>
+  
+  <!-- Detailed Ears with inner ear -->
+  <ellipse cx="143" cy="72" rx="14" ry="20" fill="#333"/>
+  <ellipse cx="177" cy="72" rx="14" ry="20" fill="#333"/>
+  <ellipse cx="147" cy="78" rx="6" ry="9" fill="#666"/>
+  <ellipse cx="183" cy="78" rx="6" ry="9" fill="#666"/>
+  
+  <!-- Detailed Eyes with shine -->
+  <circle cx="148" cy="88" r="8" fill="white"/>
+  <circle cx="172" cy="88" r="8" fill="white"/>
+  <circle cx="150" cy="86" r="5" fill="black"/>
+  <circle cx="174" cy="86" r="5" fill="black"/>
+  <circle cx="152" cy="85" r="2" fill="white"/>
+  <circle cx="176" cy="85" r="2" fill="white"/>
+  
+  <!-- Detailed Nose -->
+  <ellipse cx="160" cy="110" rx="14" ry="9" fill="#333"/>
+  <ellipse cx="158" cy="108" rx="5" ry="3" fill="white" opacity="0.6"/>
+  
+  <!-- Detailed Mouth -->
+  <path d="M 152 115 Q 160 130 168 115" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M 156 118 Q 160 125 164 118" fill="none" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Legs with paws -->
+  <rect x="82" y="175" width="16" height="40" rx="5"/>
+  <rect x="102" y="175" width="16" height="40" rx="5"/>
+  <ellipse cx="90" cy="220" rx="8" ry="4" fill="#333"/>
+  <ellipse cx="110" cy="220" rx="8" ry="4" fill="#333"/>
+  
+  <rect x="118" y="175" width="16" height="40" rx="5"/>
+  <rect x="138" y="175" width="16" height="40" rx="5"/>
+  <ellipse cx="126" cy="220" rx="8" ry="4" fill="#333"/>
+  <ellipse cx="146" cy="220" rx="8" ry="4" fill="#333"/>
+</svg>

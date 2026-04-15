@@ -1,0 +1,29 @@
+/* Font styles for text elements */
+@font-face {
+  font-family: 'ColoringFont';
+  src: local('Comic Sans MS'), local('Chalkboard SE'), local('Marker Felt');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-label {
+  font-family: 'ColoringFont', sans-serif;
+  font-size: 14px;
+  fill: #666;
+  text-anchor: middle;
+}
+
+.title {
+  font-family: 'ColoringFont', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  fill: #222;
+  text-anchor: middle;
+}
+
+.subtitle {
+  font-family: 'ColoringFont', sans-serif;
+  font-size: 16px;
+  fill: #444;
+  text-anchor: middle;
+}

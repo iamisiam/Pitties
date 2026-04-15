@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 250">
+  <!-- Simple Standing Pitbull -->
+  <rect x="0" y="0" width="300" height="250" fill="#f5f5f5"/>
+  
+  <!-- Body -->
+  <rect x="85" y="120" width="55" height="50" rx="5"/>
+  
+  <!-- Head -->
+  <circle cx="165" cy="90" r="32"/>
+  
+  <!-- Ears -->
+  <ellipse cx="148" cy="75" rx="10" ry="16"/>
+  <ellipse cx="182" cy="75" rx="10" ry="16"/>
+  
+  <!-- Eyes -->
+  <circle cx="155" cy="88" r="5" fill="white"/>
+  <circle cx="175" cy="88" r="5" fill="white"/>
+  <circle cx="157" cy="86" r="2.5" fill="black"/>
+  <circle cx="177" cy="86" r="2.5" fill="black"/>
+  
+  <!-- Nose -->
+  <ellipse cx="165" cy="102" rx="8" ry="5"/>
+  
+  <!-- Mouth/Expression -->
+  <path d="M 158 107 Q 165 118 172 107" fill="none"/>
+  
+  <!-- Front Legs -->
+  <rect x="92" y="170" width="14" height="40" rx="3"/>
+  <rect x="114" y="170" width="14" height="40" rx="3"/>
+  
+  <!-- Back Legs -->
+  <rect x="128" y="170" width="14" height="40" rx="3"/>
+  <rect x="158" y="170" width="14" height="40" rx="3"/>
+</svg>
