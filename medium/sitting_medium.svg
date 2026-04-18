@@ -1,43 +1,99 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 250">
-  <!-- Medium Sitting Pitbull -->
-  <rect x="0" y="0" width="300" height="250" fill="#f5f5f5"/>
-  
-  <!-- Body with volume -->
-  <rect x="75" y="125" width="60" height="45" rx="8" fill="none" stroke="#333" stroke-width="2.5"/>
-  
-  <!-- Head with detail -->
-  <circle cx="160" cy="90" r="35" fill="none" stroke="#333" stroke-width="2.5"/>
-  
-  <!-- Detailed Ears with inner ear -->
-  <ellipse cx="143" cy="72" rx="14" ry="20" fill="#333"/>
-  <ellipse cx="177" cy="72" rx="14" ry="20" fill="#333"/>
-  <ellipse cx="147" cy="78" rx="6" ry="9" fill="#666"/>
-  <ellipse cx="183" cy="78" rx="6" ry="9" fill="#666"/>
-  
-  <!-- Detailed Eyes with shine -->
-  <circle cx="148" cy="88" r="8" fill="white"/>
-  <circle cx="172" cy="88" r="8" fill="white"/>
-  <circle cx="150" cy="86" r="5" fill="black"/>
-  <circle cx="174" cy="86" r="5" fill="black"/>
-  <circle cx="152" cy="85" r="2" fill="white"/>
-  <circle cx="176" cy="85" r="2" fill="white"/>
-  
-  <!-- Detailed Nose -->
-  <ellipse cx="160" cy="110" rx="14" ry="9" fill="#333"/>
-  <ellipse cx="158" cy="108" rx="5" ry="3" fill="white" opacity="0.6"/>
-  
-  <!-- Detailed Mouth -->
-  <path d="M 152 115 Q 160 130 168 115" fill="none" stroke="#333" stroke-width="2"/>
-  <path d="M 156 118 Q 160 125 164 118" fill="none" stroke="#333" stroke-width="1.5"/>
-  
-  <!-- Legs with paws -->
-  <rect x="82" y="175" width="16" height="40" rx="5"/>
-  <rect x="102" y="175" width="16" height="40" rx="5"/>
-  <ellipse cx="90" cy="220" rx="8" ry="4" fill="#333"/>
-  <ellipse cx="110" cy="220" rx="8" ry="4" fill="#333"/>
-  
-  <rect x="118" y="175" width="16" height="40" rx="5"/>
-  <rect x="138" y="175" width="16" height="40" rx="5"/>
-  <ellipse cx="126" cy="220" rx="8" ry="4" fill="#333"/>
-  <ellipse cx="146" cy="220" rx="8" ry="4" fill="#333"/>
+  <!-- Medium Sitting Pitbull - Professional Coloring Page -->
+  <rect x="0" y="0" width="300" height="250" fill="#ffffff"/>
+
+  <!-- Body -->
+  <path d="M 105 140
+           Q 95 150 90 165
+           L 90 205
+           Q 90 215 100 215
+           L 200 215
+           Q 210 215 210 205
+           L 210 165
+           Q 205 150 195 140"
+        fill="none" stroke="#222222" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Belly line -->
+  <path d="M 115 190 Q 160 200 205 190" fill="none" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Head -->
+  <ellipse cx="160" cy="100" rx="38" ry="35" fill="none" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- Snout -->
+  <ellipse cx="160" cy="118" rx="18" ry="14" fill="none" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- Ears folded with inner ear detail -->
+  <path d="M 128 88
+           Q 122 78 132 72
+           Q 142 68 152 78
+           L 152 95"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
+  <path d="M 145 82 Q 150 75 155 82" fill="none" stroke="#222222" stroke-width="1.5"/>
+
+  <path d="M 192 88
+           Q 198 78 188 72
+           Q 178 68 168 78
+           L 168 95"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
+  <path d="M 175 82 Q 180 75 185 82" fill="none" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Eyes -->
+  <ellipse cx="148" cy="98" rx="6" ry="7" fill="none" stroke="#222222" stroke-width="2"/>
+  <circle cx="150" cy="99" r="2.5" fill="#222222"/>
+
+  <ellipse cx="172" cy="98" rx="6" ry="7" fill="none" stroke="#222222" stroke-width="2"/>
+  <circle cx="174" cy="99" r="2.5" fill="#222222"/>
+
+  <!-- Eye highlights -->
+  <circle cx="151" cy="97" r="1.5" fill="white"/>
+  <circle cx="175" cy="97" r="1.5" fill="white"/>
+
+  <!-- Nose -->
+  <ellipse cx="160" cy="126" rx="12" ry="9" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <ellipse cx="158" cy="124" rx="3" ry="2" fill="#222222"/>
+
+  <!-- Mouth -->
+  <path d="M 155 132 Q 160 142 165 132" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <path d="M 158 136 Q 160 140 162 136" fill="none" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Front legs with paws -->
+  <path d="M 115 180
+           L 115 225
+           Q 115 232 122 232
+           L 130 232
+           Q 137 232 137 225
+           L 137 180"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
+  <!-- Paw pads -->
+  <ellipse cx="126" cy="232" rx="6" ry="3.5" fill="none" stroke="#222222" stroke-width="1.5"/>
+  <ellipse cx="122" cy="229" rx="3" ry="2" fill="none" stroke="#222222" stroke-width="1"/>
+
+  <path d="M 165 180
+           L 165 225
+           Q 165 232 172 232
+           L 180 232
+           Q 187 232 187 225
+           L 187 180"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
+  <ellipse cx="176" cy="232" rx="6" ry="3.5" fill="none" stroke="#222222" stroke-width="1.5"/>
+  <ellipse cx="172" cy="229" rx="3" ry="2" fill="none" stroke="#222222" stroke-width="1"/>
+
+  <!-- Back legs -->
+  <path d="M 100 205
+           L 100 240
+           Q 100 245 107 245
+           L 117 245
+           Q 124 245 124 240
+           L 124 205"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
+  <ellipse cx="110" cy="245" rx="6" ry="3" fill="none" stroke="#222222" stroke-width="1.5"/>
+
+  <path d="M 176 205
+           L 176 240
+           Q 176 245 183 245
+           L 193 245
+           Q 200 245 200 240
+           L 200 205"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
+  <ellipse cx="186" cy="245" rx="6" ry="3" fill="none" stroke="#222222" stroke-width="1.5"/>
 </svg>

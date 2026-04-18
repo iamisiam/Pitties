@@ -1,34 +1,86 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 250">
-  <!-- Simple Sitting Pitbull -->
-  <rect x="0" y="0" width="300" height="250" fill="#f5f5f5"/>
-  
-  <!-- Body -->
-  <rect x="80" y="140" width="60" height="40" rx="5"/>
-  
-  <!-- Head -->
-  <circle cx="160" cy="100" r="35"/>
-  
-  <!-- Ears -->
-  <ellipse cx="140" cy="80" rx="12" ry="18"/>
-  <ellipse cx="180" cy="80" rx="12" ry="18"/>
-  
-  <!-- Eyes -->
-  <circle cx="150" cy="95" r="6" fill="white"/>
-  <circle cx="170" cy="95" r="6" fill="white"/>
-  <circle cx="152" cy="93" r="3" fill="black"/>
-  <circle cx="172" cy="93" r="3" fill="black"/>
-  
+  <!-- Simple Sitting Pitbull - Professional Coloring Page -->
+  <rect x="0" y="0" width="300" height="250" fill="#ffffff"/>
+
+  <!-- Body outline -->
+  <path d="M 110 130
+           Q 100 140 95 155
+           L 95 195
+           Q 95 205 105 205
+           L 195 205
+           Q 205 205 205 195
+           L 205 155
+           Q 200 140 190 130"
+        fill="none" stroke="#222222" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Chest detail -->
+  <path d="M 115 145 Q 130 140 145 145"
+        fill="none" stroke="#222222" stroke-width="1.5"/>
+
+  <!-- Head outline -->
+  <ellipse cx="160" cy="105" rx="38" ry="35" fill="none" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- Snout -->
+  <ellipse cx="160" cy="120" rx="18" ry="14" fill="none" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- Ears - folded -->
+  <path d="M 128 90
+           Q 125 80 135 75
+           Q 145 70 152 80
+           L 152 95"
+        fill="none" stroke="#222222" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 192 90
+           Q 195 80 185 75
+           Q 175 70 168 80
+           L 168 95"
+        fill="none" stroke="#222222" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Eyes gentle -->
+  <ellipse cx="148" cy="100" rx="6" ry="7" fill="none" stroke="#222222" stroke-width="2"/>
+  <circle cx="150" cy="101" r="2.5" fill="#222222"/>
+
+  <ellipse cx="172" cy="100" rx="6" ry="7" fill="none" stroke="#222222" stroke-width="2"/>
+  <circle cx="174" cy="101" r="2.5" fill="#222222"/>
+
   <!-- Nose -->
-  <ellipse cx="160" cy="110" rx="10" ry="6"/>
-  
-  <!-- Mouth -->
-  <path d="M 155 115 Q 160 125 165 115" fill="none"/>
-  
-  <!-- Front Legs -->
-  <rect x="90" y="180" width="15" height="35" rx="3"/>
-  <rect x="105" y="180" width="15" height="35" rx="3"/>
-  
-  <!-- Back Legs -->
-  <rect x="130" y="180" width="15" height="35" rx="3"/>
-  <rect x="145" y="180" width="15" height="35" rx="3"/>
+  <ellipse cx="160" cy="125" rx="10" ry="8" fill="none" stroke="#222222" stroke-width="2"/>
+  <ellipse cx="158" cy="123" rx="3" ry="2" fill="#666666"/>
+
+  <!-- Mouth gentle expression -->
+  <path d="M 150 132 Q 160 142 170 132"
+        fill="none" stroke="#222222" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Front legs -->
+  <path d="M 115 170
+           L 115 210
+           Q 115 215 120 215
+           L 130 215
+           Q 135 215 135 210
+           L 135 170"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
+
+  <path d="M 165 170
+           L 165 210
+           Q 165 215 170 215
+           L 180 215
+           Q 185 215 185 210
+           L 185 170"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
+
+  <!-- Back legs visible -->
+  <path d="M 100 190
+           L 100 225
+           Q 100 230 105 230
+           L 115 230
+           Q 120 230 120 225
+           L 120 190"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
+
+  <path d="M 180 190
+           L 180 225
+           Q 180 230 185 230
+           L 195 230
+           Q 200 230 200 225
+           L 200 190"
+        fill="none" stroke="#222222" stroke-width="2.5"/>
 </svg>
